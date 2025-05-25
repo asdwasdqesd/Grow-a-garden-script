@@ -121,7 +121,7 @@ local Tab: Tab = Window:CreateTab({
 Tab:CreateSection("Change Log")
 
 Tab:CreateParagraph({
-	Title = `Grow A garden | {ScriptVersion}`,
+	Title = `{PlaceName} | {ScriptVersion}`,
 	Text = getgenv().Changelog or "No changelog found",
 })
 
