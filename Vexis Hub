@@ -304,7 +304,7 @@ type FeaturesList = {
 }
 
 local Features: FeaturesList = {
-	QoL = {
+	Player = {
 		{
 			Element = "Toggle",
 			Info = {
